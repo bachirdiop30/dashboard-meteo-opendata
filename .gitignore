@@ -1,0 +1,23 @@
+# venv
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Données
+data/raw/*
+data/cleaned/*
+!data/raw/.gitkeep
+!data/cleaned/.gitkeep
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Système
+.DS_Store
+Thumbs.db
+
+# Vidéo
+video.mp4
